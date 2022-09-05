@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+   
+    <!-- Title -->
+    <title>BBC News</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+
+<body>
+    <!-- Header-Section -->
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo-img" src="img/bbc-logo.jpg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-lg-0">
+                            <li class="nav-hover nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">News</a>
+                            </li>
+                            <li class="nav-hover nav-item mx-4">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <hr>
+
+        <!-- Catagories  -->
+        <div class="container">
+            <ul id="catagories" class="scrollmenu">
+            </ul>
+        </div>
+        <div>
+            <h3 class="text-bold bg-danger my-4 p-2 text-center" id="alert"><span id="hf">0</span> Items found on this
+                Categories</h3>
+        </div>
+    
+        <section class="container mt-5">
+            <div class="row g-2">
+                <div class="d-flex justify-content-between btn-flex">
+                    <div class="d-flex">
+                        <div>
+                            <p class="fw-bold">Sort By View:</p>
+                        </div>
+                        <div>
+                            <div class="dropdown sort-btn">
+                                <a class="btn btn-secondary dropdown-toggle bg-danger border-0" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Default
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" type="button">Latest</a></li>
+                                    <li><a class="dropdown-item" type="button">Popular</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex trending-btn">
+                        <div class="mx-4">
+                            <button type="button" class="btn bg-danger">Today's Pick</button>
+
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-outline-danger">Trending</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+     
+    </header>
+
+    <main>
+      
+        <section class="container mt-5">
+            <div id="new-container">
+
+           
+
+            </div>
+
+        </section>
+    </main>
+    <!-- Loading Section -->
+    <section class="d-none" id="loader">
+        <div class="d-flex justify-content-center">
+            <div class="spinner-grow text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-warning" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </section>
+<!-- Loading Section End-->
+
+    <!-- Footer Section  -->
+    <footer class="bg-black">
+        <section>
+            <h3 class="text-center fs-5 text-light pt-4"> Copyright &copy; 2022 The National News</h3>
+        </section>
+    </footer>
+<!-- Footer Section End -->
+
+    <!-- Bootstrap  -->
+    <script src="css/bootstrap.bundle.min.js"></script>
+    <!-- Js  -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
