@@ -19,7 +19,7 @@ body{
 .card-title{
     cursor: pointer;
 }
-/* Scroll ul */
+
 .scrollmenu {
   overflow: auto;
   white-space: nowrap;
@@ -74,31 +74,6 @@ footer p{
 	flex-grow: 0;
 	align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Extra small devices (phones, 500px and down) */
