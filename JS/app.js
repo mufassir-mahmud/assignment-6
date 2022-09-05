@@ -111,7 +111,7 @@ const categoriesItem = item => {
     <div class="modal-header">
     <h5 class="modal-title" id="exampleModalLabel_${newsCard._id}">
     Badge:  ${newsCard.rating.badge}</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="modal"aria-label="Close"></button>
+    <button type="button" class="btn-close " data-bs-dismiss="modal"aria-label="Close"></button>
     </div>
     <div class="modal-body">
 
